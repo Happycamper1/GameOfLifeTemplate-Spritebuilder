@@ -1,13 +1,15 @@
 //
-//  CCSprite+Grid.m
+//  Grid.m
 //  GameOfLife
 //
 //  Created by Kevin Calixtro on 8/6/15.
 //  Copyright (c) 2015 Apportable. All rights reserved.
 //
 
-#import "CCSprite+Grid.h"
-#import "CCSprite+Creature.h"
+#import "Grid.h"
+
+#import "Grid.h"
+#import "Creature.h"
 
 // these are variables that cannot be changed
 static const int GRID_ROWS = 8;

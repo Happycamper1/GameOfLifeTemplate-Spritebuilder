@@ -1,14 +1,14 @@
 //
-//  CCSprite+Creature.m
+//  Creature.m
 //  GameOfLife
 //
 //  Created by Kevin Calixtro on 8/6/15.
 //  Copyright (c) 2015 Apportable. All rights reserved.
 //
 
-#import "CCSprite+Creature.h"
+#import "Creature.h"
 
-@implementation CCSprite (Creature)
+@implementation Creature
 - (instancetype)initCreature {
     // since we made Creature inherit from CCSprite, 'super' below refers to CCSprite
     self = [super initWithImageNamed:@"GameOfLifeAssets/Assets/bubble.png"];

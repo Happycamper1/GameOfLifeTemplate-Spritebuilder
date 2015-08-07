@@ -1,5 +1,5 @@
 //
-//  CCSprite+Grid.h
+//  Grid.h
 //  GameOfLife
 //
 //  Created by Kevin Calixtro on 8/6/15.
@@ -7,8 +7,8 @@
 //
 
 #import "CCSprite.h"
+
+@interface Grid : CCSprite
 @property (nonatomic, assign) int totalAlive;
 @property (nonatomic, assign) int generation;
-@interface CCSprite (Grid)
-
 @end

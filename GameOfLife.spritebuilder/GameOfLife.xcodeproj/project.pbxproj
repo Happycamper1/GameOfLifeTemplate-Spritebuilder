@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A3099AF1B746648002E165D /* CCSprite+Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3099AE1B746648002E165D /* CCSprite+Grid.m */; };
-		0A3099B51B7466B4002E165D /* CCSprite+Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3099B41B7466B4002E165D /* CCSprite+Creature.m */; };
+		0A3099B81B746CD1002E165D /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3099B71B746CD1002E165D /* Grid.m */; };
+		0A3099BB1B746CEE002E165D /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3099BA1B746CEE002E165D /* Creature.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -72,10 +72,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A3099AD1B746648002E165D /* CCSprite+Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCSprite+Grid.h"; sourceTree = "<group>"; };
-		0A3099AE1B746648002E165D /* CCSprite+Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCSprite+Grid.m"; sourceTree = "<group>"; };
-		0A3099B31B7466B4002E165D /* CCSprite+Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCSprite+Creature.h"; sourceTree = "<group>"; };
-		0A3099B41B7466B4002E165D /* CCSprite+Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCSprite+Creature.m"; sourceTree = "<group>"; };
+		0A3099B61B746CD1002E165D /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		0A3099B71B746CD1002E165D /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		0A3099B91B746CEE002E165D /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		0A3099BA1B746CEE002E165D /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -187,10 +187,10 @@
 		B77F1B2517B978D7009739AE = {
 			isa = PBXGroup;
 			children = (
-				0A3099AD1B746648002E165D /* CCSprite+Grid.h */,
-				0A3099AE1B746648002E165D /* CCSprite+Grid.m */,
-				0A3099B31B7466B4002E165D /* CCSprite+Creature.h */,
-				0A3099B41B7466B4002E165D /* CCSprite+Creature.m */,
+				0A3099B61B746CD1002E165D /* Grid.h */,
+				0A3099B71B746CD1002E165D /* Grid.m */,
+				0A3099B91B746CEE002E165D /* Creature.h */,
+				0A3099BA1B746CEE002E165D /* Creature.m */,
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				9222E2B918734FF800A246C7 /* libs */,
@@ -380,11 +380,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3099AF1B746648002E165D /* CCSprite+Grid.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
-				0A3099B51B7466B4002E165D /* CCSprite+Creature.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				0A3099B81B746CD1002E165D /* Grid.m in Sources */,
+				0A3099BB1B746CEE002E165D /* Creature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
